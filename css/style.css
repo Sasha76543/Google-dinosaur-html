@@ -1,0 +1,31 @@
+.dino {
+    width: 44px;
+    height: 48px;
+    display: inline-block;
+    background-image: url('dino.png');
+  }
+  
+  .cactus {
+    width: 17px;
+    height: 35px;
+    display: inline-block;
+    background-image: url('cactus.png');
+  }
+  
+  .ground {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 15px;
+    width: 100%;
+    background: #78CB85;
+  }
+  
+  .sky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background: #84C7ED;
+  }
